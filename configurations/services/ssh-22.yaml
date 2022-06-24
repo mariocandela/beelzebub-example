@@ -17,6 +17,8 @@ commands:
     handler: "Linux"
   - regex: "^ps$"
     handler: "  PID TTY           TIME CMD\n21642 ttys000    0:00.07 /bin/dockerd"
+  - regex: "^cat /proc/cpuinfo | grep name | wc -l$"
+    handler: "4"
   - regex: "^(.+)$"
     handler: "command not found"
 serverVersion: "OpenSSH"
