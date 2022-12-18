@@ -74,6 +74,24 @@ Browser:
 
 ### Example SSH Honeypot
 
+###### Honeypot with ChatBot GPT-3 ssh-2222.yaml
+
+```yaml
+apiVersion: "v1"
+protocol: "ssh"
+address: ":2222"
+description: "SSH interactive ChatGPT"
+commands:
+  - regex: "^(.+)$"
+    plugin: "OpenAIChatGPT"
+serverVersion: "OpenSSH"
+serverName: "ubuntu"
+passwordRegex: "^(root|qwerty|Smoker666|123456|jenkins|minecraft|sinus|alex|postgres|Ly123456)$"
+deadlineTimeoutSeconds: 60
+plugin:
+  openAPIChatGPTSecretKey: "Here your ChatBot SecretKey "
+ ```
+
 ###### ssh-22.yaml
 
 ```yaml
@@ -108,21 +126,6 @@ Example:
 ssh root@localhost 
 ```
 ![alt text](https://i.postimg.cc/jdpfT0LB/Schermata-2022-06-02-alle-12-46-50.png)
-
-## Features
-
-- SSH Honeypot
-- HTTP Honeypot
-- Easy to create a new strategy
-- Easy to extend event tracking logic
-- Strong code quality
-- Docker
-- RabbitMQ integration
-
-## TODO
-
-- telnet
-- tcp
 
 ## Documentation
 
