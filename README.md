@@ -70,6 +70,7 @@ Example:
 curl http://localhost:8080/index.php
 ```
 Browser:
+
 ![alt text](https://i.postimg.cc/T1cs6qc4/Schermata-2022-06-02-alle-12-43-55.png)
 
 ### Example SSH Honeypot
