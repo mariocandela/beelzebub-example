@@ -4,11 +4,14 @@ services:
   beelzebub:
     #network_mode: host # Not work on Mac OS
     container_name: beelzebub
-    image: m4r10/beelzebub:latest
+    image: m4r10/beelzebub:v2.1.2
     restart: always
     ports: # Remove me, if you use configuration network_mode: host
       - "22:22"
       - "8080:8080"
+      - "2222:2222"
+      - "3306:3306"
       - "80:80"
+      - "5432:5432"
     volumes:
       - "./configurations:/configurations"
