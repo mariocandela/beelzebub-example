@@ -1,6 +1,8 @@
 # beelzebub-example
 Example configuration Beelzebub honeypot 🚀
 
+[`Beelzebub project`](https://github.com/mariocandela/beelzebub)
+
 ## Quick Start
 
 Using [`docker-compose`](https://docs.docker.com/compose/)
