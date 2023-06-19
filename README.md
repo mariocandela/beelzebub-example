@@ -1,5 +1,7 @@
 # beelzebub-example
-Example configuration Beelzebub honeypot 🚀
+Example configuration Beelzebub honeypot framework low code 🚀
+
+[`Beelzebub project`](https://github.com/mariocandela/beelzebub)
 
 ## Quick Start
 
