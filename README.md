@@ -3,6 +3,8 @@ Example configuration Beelzebub honeypot 🚀
 
 [`Beelzebub project`](https://github.com/mariocandela/beelzebub)
 
+[![asciicast](https://asciinema.org/a/iHofqsbQ6K1eRYLZ5AmJLmOxm.svg)](https://asciinema.org/a/iHofqsbQ6K1eRYLZ5AmJLmOxm)
+
 ## Quick Start
 
 Using [`docker-compose`](https://docs.docker.com/compose/)
