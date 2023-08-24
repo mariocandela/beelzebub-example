@@ -3,7 +3,7 @@ Example configuration Beelzebub honeypot 🚀
 
 [`Beelzebub project`](https://github.com/mariocandela/beelzebub)
 
-[![asciicast](https://asciinema.org/a/iHofqsbQ6K1eRYLZ5AmJLmOxm.svg)](https://asciinema.org/a/iHofqsbQ6K1eRYLZ5AmJLmOxm)
+[![asciicast](https://asciinema.org/a/604522.svg)](https://asciinema.org/a/604522)
 
 ## Quick Start
 
