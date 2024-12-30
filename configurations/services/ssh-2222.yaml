@@ -8,6 +8,7 @@ commands:
 serverVersion: "OpenSSH"
 serverName: "ubuntu"
 passwordRegex: "^(root|qwerty|Smoker666|123456|jenkins|minecraft|sinus|alex|postgres|Ly123456)$"
-deadlineTimeoutSeconds: 60
+deadlineTimeoutSeconds: 120
 plugin:
-  openAISecretKey: ""
+    llmModel: "gpt4-o"
+    openAISecretKey: "sk-proj-1234567890"
