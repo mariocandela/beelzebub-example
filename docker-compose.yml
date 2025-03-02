@@ -3,7 +3,7 @@ version: "3.9"
 services:
   beelzebub:
     container_name: beelzebub
-    image: m4r10/beelzebub:v3.3.6
+    image: m4r10/beelzebub:latest
     restart: always
     ports:
       - "22:22"
