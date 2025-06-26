@@ -14,3 +14,9 @@ services:
       - "5432:5432"
     volumes:
       - "./configurations:/configurations"
+  log-view-http:
+    image: nginx:alpine
+    volumes:
+      - "./logs/:/usr/share/nginx/html/logs"
+    ports:
+      - "8888:80"
